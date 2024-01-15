@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1F028DF3A89E286A49D3AF /* Pods_CambioMoedasDIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784893A1E98626E1063911C8 /* Pods_CambioMoedasDIO.framework */; };
+		8F3334032B2CE76600599198 /* ExchangeUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3334022B2CE76600599198 /* ExchangeUserDefault.swift */; };
 		8F3700FA2B266CFF0006F147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3700F92B266CFF0006F147 /* AppDelegate.swift */; };
 		8F3700FC2B266CFF0006F147 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3700FB2B266CFF0006F147 /* SceneDelegate.swift */; };
 		8F3700FE2B266CFF0006F147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3700FD2B266CFF0006F147 /* ViewController.swift */; };
 		8F3701012B266CFF0006F147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3700FF2B266CFF0006F147 /* Main.storyboard */; };
 		8F3701032B266D000006F147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3701022B266D000006F147 /* Assets.xcassets */; };
 		8F3701062B266D000006F147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3701042B266D000006F147 /* LaunchScreen.storyboard */; };
+		8F3701132B2676400006F147 /* CoinConverterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3701122B2676400006F147 /* CoinConverterController.swift */; };
+		8F7F06892B54C5210090C1CC /* CoinConvertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F06882B54C5210090C1CC /* CoinConvertTableViewController.swift */; };
+		8F7F068C2B54C5600090C1CC /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F068B2B54C5600090C1CC /* HistoryTableViewCell.swift */; };
+		8FF23B082B2BB7FB00130CD4 /* CoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF23B072B2BB7FB00130CD4 /* CoinResponse.swift */; };
+		8FF23B0A2B2BC20300130CD4 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF23B092B2BC20300130CD4 /* WebService.swift */; };
+		8FF23B0E2B2BC92400130CD4 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF23B0D2B2BC92400130CD4 /* Enum.swift */; };
+		8FF23B102B2BC9B000130CD4 /* CoinConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF23B0F2B2BC9B000130CD4 /* CoinConverterViewModel.swift */; };
+		8FF23B122B2BCF3100130CD4 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF23B112B2BCF3100130CD4 /* ErrorResponse.swift */; };
+		8FF23B162B2BE5A400130CD4 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF23B152B2BE5A400130CD4 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EDEC7F45D058A7B07048D36 /* Pods-CambioMoedasDIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CambioMoedasDIO.debug.xcconfig"; path = "Target Support Files/Pods-CambioMoedasDIO/Pods-CambioMoedasDIO.debug.xcconfig"; sourceTree = "<group>"; };
+		784893A1E98626E1063911C8 /* Pods_CambioMoedasDIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CambioMoedasDIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3334022B2CE76600599198 /* ExchangeUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeUserDefault.swift; sourceTree = "<group>"; };
 		8F3700F62B266CFF0006F147 /* CambioMoedasDIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CambioMoedasDIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3700F92B266CFF0006F147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F3700FB2B266CFF0006F147 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,16 @@
 		8F3701022B266D000006F147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3701052B266D000006F147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3701072B266D000006F147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3701122B2676400006F147 /* CoinConverterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinConverterController.swift; sourceTree = "<group>"; };
+		8F7F06882B54C5210090C1CC /* CoinConvertTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinConvertTableViewController.swift; sourceTree = "<group>"; };
+		8F7F068B2B54C5600090C1CC /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		8FF23B072B2BB7FB00130CD4 /* CoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinResponse.swift; sourceTree = "<group>"; };
+		8FF23B092B2BC20300130CD4 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		8FF23B0D2B2BC92400130CD4 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		8FF23B0F2B2BC9B000130CD4 /* CoinConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinConverterViewModel.swift; sourceTree = "<group>"; };
+		8FF23B112B2BCF3100130CD4 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		8FF23B152B2BE5A400130CD4 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B3CF9F5D6E81D413BDB65C31 /* Pods-CambioMoedasDIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CambioMoedasDIO.release.xcconfig"; path = "Target Support Files/Pods-CambioMoedasDIO/Pods-CambioMoedasDIO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1F028DF3A89E286A49D3AF /* Pods_CambioMoedasDIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70BE3D5EC973C39902432394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EDEC7F45D058A7B07048D36 /* Pods-CambioMoedasDIO.debug.xcconfig */,
+				B3CF9F5D6E81D413BDB65C31 /* Pods-CambioMoedasDIO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		801F915540374811E5DACF3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				784893A1E98626E1063911C8 /* Pods_CambioMoedasDIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F3334012B2CE74F00599198 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				8F3334022B2CE76600599198 /* ExchangeUserDefault.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
 		8F3700ED2B266CFF0006F147 = {
 			isa = PBXGroup;
 			children = (
 				8F3700F82B266CFF0006F147 /* CambioMoedasDIO */,
 				8F3700F72B266CFF0006F147 /* Products */,
+				70BE3D5EC973C39902432394 /* Pods */,
+				801F915540374811E5DACF3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,97 @@
 		8F3700F82B266CFF0006F147 /* CambioMoedasDIO */ = {
 			isa = PBXGroup;
 			children = (
+				8FF23B0B2B2BC91100130CD4 /* Suport */,
+				8F37010D2B26759E0006F147 /* Controller */,
+				8F37010E2B2675A60006F147 /* Model */,
+				8F37010F2B2675E60006F147 /* View */,
+				8F3701102B2675ED0006F147 /* ViewModel */,
+				8F3701112B2675F40006F147 /* WebService */,
 				8F3700F92B266CFF0006F147 /* AppDelegate.swift */,
 				8F3700FB2B266CFF0006F147 /* SceneDelegate.swift */,
 				8F3700FD2B266CFF0006F147 /* ViewController.swift */,
-				8F3700FF2B266CFF0006F147 /* Main.storyboard */,
 				8F3701022B266D000006F147 /* Assets.xcassets */,
 				8F3701042B266D000006F147 /* LaunchScreen.storyboard */,
 				8F3701072B266D000006F147 /* Info.plist */,
 			);
 			path = CambioMoedasDIO;
+			sourceTree = "<group>";
+		};
+		8F37010D2B26759E0006F147 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F3701122B2676400006F147 /* CoinConverterController.swift */,
+				8F7F06882B54C5210090C1CC /* CoinConvertTableViewController.swift */,
+				8F7F068A2B54C53F0090C1CC /* Cell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F37010E2B2675A60006F147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FF23B072B2BB7FB00130CD4 /* CoinResponse.swift */,
+				8FF23B112B2BCF3100130CD4 /* ErrorResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F37010F2B2675E60006F147 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F3700FF2B266CFF0006F147 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F3701102B2675ED0006F147 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8FF23B0F2B2BC9B000130CD4 /* CoinConverterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8F3701112B2675F40006F147 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				8FF23B092B2BC20300130CD4 /* WebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		8F7F068A2B54C53F0090C1CC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F068B2B54C5600090C1CC /* HistoryTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8FF23B0B2B2BC91100130CD4 /* Suport */ = {
+			isa = PBXGroup;
+			children = (
+				8F3334012B2CE74F00599198 /* UserDefaults */,
+				8FF23B142B2BE59100130CD4 /* Extensions */,
+				8FF23B0C2B2BC91900130CD4 /* Enum */,
+			);
+			path = Suport;
+			sourceTree = "<group>";
+		};
+		8FF23B0C2B2BC91900130CD4 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				8FF23B0D2B2BC92400130CD4 /* Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		8FF23B142B2BE59100130CD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8FF23B152B2BE5A400130CD4 /* UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F37010A2B266D000006F147 /* Build configuration list for PBXNativeTarget "CambioMoedasDIO" */;
 			buildPhases = (
+				BA69700DBDB913F01070AE0E /* [CP] Check Pods Manifest.lock */,
 				8F3700F22B266CFF0006F147 /* Sources */,
 				8F3700F32B266CFF0006F147 /* Frameworks */,
 				8F3700F42B266CFF0006F147 /* Resources */,
+				2216774C414C661BE0DC8484 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +269,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2216774C414C661BE0DC8484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CambioMoedasDIO/Pods-CambioMoedasDIO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CambioMoedasDIO/Pods-CambioMoedasDIO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CambioMoedasDIO/Pods-CambioMoedasDIO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA69700DBDB913F01070AE0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CambioMoedasDIO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F3700F22B266CFF0006F147 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF23B162B2BE5A400130CD4 /* UIViewController.swift in Sources */,
+				8FF23B0A2B2BC20300130CD4 /* WebService.swift in Sources */,
+				8F7F068C2B54C5600090C1CC /* HistoryTableViewCell.swift in Sources */,
 				8F3700FE2B266CFF0006F147 /* ViewController.swift in Sources */,
+				8F3334032B2CE76600599198 /* ExchangeUserDefault.swift in Sources */,
+				8F3701132B2676400006F147 /* CoinConverterController.swift in Sources */,
 				8F3700FA2B266CFF0006F147 /* AppDelegate.swift in Sources */,
+				8FF23B102B2BC9B000130CD4 /* CoinConverterViewModel.swift in Sources */,
+				8FF23B0E2B2BC92400130CD4 /* Enum.swift in Sources */,
+				8F7F06892B54C5210090C1CC /* CoinConvertTableViewController.swift in Sources */,
+				8FF23B122B2BCF3100130CD4 /* ErrorResponse.swift in Sources */,
 				8F3700FC2B266CFF0006F147 /* SceneDelegate.swift in Sources */,
+				8FF23B082B2BB7FB00130CD4 /* CoinResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +391,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +454,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +475,7 @@
 		};
 		8F37010B2B266D000006F147 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDEC7F45D058A7B07048D36 /* Pods-CambioMoedasDIO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +504,7 @@
 		};
 		8F37010C2B266D000006F147 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CF9F5D6E81D413BDB65C31 /* Pods-CambioMoedasDIO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
