@@ -1,0 +1,6 @@
+framework module Pods_CambioMoedasDIO {
+  umbrella header "Pods-CambioMoedasDIO-umbrella.h"
+
+  export *
+  module * { export * }
+}
